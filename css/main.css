@@ -1,0 +1,185 @@
+
+body {
+   margin: 0;
+    padding: 0;
+  
+   height:100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+}
+#container
+{
+  width: 1240px; 
+	 
+
+}
+
+.bold
+{
+    font-weight: bold;
+    
+}
+
+
+/*--------------------MENU--------------------*/
+
+#nav
+{
+  
+    height:100%;
+    position:fixed; 
+    width: 120px;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+	z-index: 9999;
+
+}
+
+.sidenav
+{
+    padding-right: 4%;
+    
+}
+p
+{
+    text-align: center;
+   
+}
+p img
+{
+  
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+ul.navbar li
+{
+  
+
+    width: 100%;
+    padding:20% 0%;
+    margin: 0 2% 1% 0;
+    color: #e4e4e4;
+    font-size: 14px;
+    display: block;
+    background-color:#403f3f;
+    border-right-width: 5px;
+    border-right-style: solid;
+    
+}
+.navtext
+{
+    display: inline;
+   vertical-align: middle;
+	font-size: 14px
+	color: #e4e4e4;
+	
+}
+.material-icons
+{
+    padding:0% 5%;
+     vertical-align: middle;
+    
+}
+.clear
+{
+    clear: both;
+}
+
+header {
+width: 100%;
+margin-left:120px;
+}
+#banner {
+top: 0;
+position:absolute;
+background:url("../images/top_banner.jpg") no-repeat top left;
+width:1120px;
+height:149px;
+
+}
+
+#bannertext
+{
+	
+color: #403f3f;
+text-align:left;
+	padding:50px 0 0 20px;
+}
+
+section
+{
+    position: relative;    
+	margin-left: 120px;
+    vertical-align:top;
+}
+
+#order
+{
+position: relative;
+padding-top: 155px;
+text-align: right;
+opacity: 0.7;
+margin-left: 1050px;
+cursor: pointer;
+}
+#results
+{
+	display:block;
+	color:#403f3f;
+	margin-top:2px;
+    
+}
+#results tr
+{
+	display:inline-table;
+    width: 356px;
+	border: 1px solid #ccc;
+	vertical-align:top;
+	margin: 7px 0;
+    margin-left: 15px;
+}
+
+
+#results tr td
+{
+	display:table-row;
+	text-align:center;
+	line-height:24px;
+    opacity: 0.9;
+	
+
+	
+}
+#results tr td:nth-child(2) {
+    font-size:18px;
+	padding:0
+	
+}
+#results tr td:nth-child(3) {
+    font-size:14px;
+	
+}
+#results tr td:nth-child(4) {
+    font-size:14px;
+	font-weight:normal;
+
+}
+hr
+{	width:80%;
+	margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+	border-width:1px;
+	margin-top:4%;
+	margin-bottom:2%;
+}
